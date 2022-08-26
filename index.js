@@ -4,17 +4,18 @@ function distanceFromHqInBlocks(someValue) {
     //returns the number of blocks given a value
     someValue=43
 
-    return `The distance from the Hq is ${someValue-hqBlock} blocks`
+    
   }
   function distanceFromHqInFeet(someValue) {
     distanceFromHqInBlocks(someValue);
-    return 
-
+    
     // call the distanceFromHqInBlocks function from inside the distanceFromHqInFeet function,
     // passing the argument from distanceFromHqInFeet into distanceFromHqInBlocks
   
     // the return value of distanceFromHqInBlocks can then be used to calculate feet
   }
+  return `The distance from the Hq is ${someValue-hqBlock} blocks`
+
   function distanceTravelledInFeet(start, destination) {
     if (distance<=400){
       return ('This one is on me!')}
@@ -30,7 +31,8 @@ function distanceFromHqInBlocks(someValue) {
     return `The distance travelleved is ${(destination-start)*264} feet`
     //returns the number of feet traveled
   }
-  function calculatesFarePrice(start, destination) {
-    return `The fare for the distance travelled is ${ (destination-start )*}`
+  function calculatesFarePrice(start=34, destination=38) {
+    
     //returns the fare for the customer
   }
+  return `The fare for the distance travelled is ${ (destination-start )*264}`
