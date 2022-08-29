@@ -28,22 +28,3 @@ function calculatesFarePrice(start, destination) {
 }
 
   
-//     // the return value of distanceFromHqInBlocks can then be used to calculate feet
-//   }
-//   return `The distance from the Hq is ${someValue-hqBlock} blocks`
-
-//   function distanceTravelledInFeet(start, destination) {
-//     if (distance<=400){
-//       return ('This one is on me!')}
-     
-//       else if (distance>2000 && distance<=2500){
-    
-//        return 'I will gladly take your thirty bucks.'
-//       }
-//       else {
-//         return 'No can do.';
-    
-//       }
-//     return `The distance travelleved is ${(destination-start)*264} feet`
-//     //returns the number of feet traveled
-//   }
